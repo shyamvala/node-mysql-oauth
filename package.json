@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shyamvala/node-mysql-oauth/issues"
   },
-  "homepage": "https://github.com/shyamvala/node-mysql-oauth#readme"
+  "homepage": "https://github.com/shyamvala/node-mysql-oauth#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }
