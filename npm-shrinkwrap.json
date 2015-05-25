@@ -2,6 +2,11 @@
   "name": "node-mysql-oauth",
   "version": "1.0.0",
   "dependencies": {
+    "bluebird": {
+      "version": "2.9.26",
+      "from": "bluebird@*",
+      "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-2.9.26.tgz"
+    },
     "body-parser": {
       "version": "1.12.4",
       "from": "body-parser@*",
@@ -612,6 +617,85 @@
               "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.0.tgz"
             }
           }
+        }
+      }
+    },
+    "passport": {
+      "version": "0.2.2",
+      "from": "passport@*",
+      "resolved": "https://registry.npmjs.org/passport/-/passport-0.2.2.tgz",
+      "dependencies": {
+        "passport-strategy": {
+          "version": "1.0.0",
+          "from": "passport-strategy@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+        },
+        "pause": {
+          "version": "0.0.1",
+          "from": "pause@0.0.1",
+          "resolved": "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz"
+        }
+      }
+    },
+    "sequelize": {
+      "version": "3.1.0",
+      "from": "sequelize@*",
+      "resolved": "https://registry.npmjs.org/sequelize/-/sequelize-3.1.0.tgz",
+      "dependencies": {
+        "depd": {
+          "version": "1.0.1",
+          "from": "depd@>=1.0.1 <2.0.0",
+          "resolved": "https://registry.npmjs.org/depd/-/depd-1.0.1.tgz"
+        },
+        "dottie": {
+          "version": "0.3.1",
+          "from": "dottie@>=0.3.1 <0.4.0",
+          "resolved": "https://registry.npmjs.org/dottie/-/dottie-0.3.1.tgz"
+        },
+        "generic-pool": {
+          "version": "2.2.0",
+          "from": "generic-pool@2.2.0",
+          "resolved": "https://registry.npmjs.org/generic-pool/-/generic-pool-2.2.0.tgz"
+        },
+        "inflection": {
+          "version": "1.7.1",
+          "from": "inflection@>=1.6.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/inflection/-/inflection-1.7.1.tgz"
+        },
+        "lodash": {
+          "version": "3.9.2",
+          "from": "lodash@>=3.5.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.9.2.tgz"
+        },
+        "moment": {
+          "version": "2.10.3",
+          "from": "moment@>=2.9.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/moment/-/moment-2.10.3.tgz"
+        },
+        "moment-timezone": {
+          "version": "0.3.1",
+          "from": "moment-timezone@>=0.3.1 <0.4.0",
+          "resolved": "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.3.1.tgz"
+        },
+        "node-uuid": {
+          "version": "1.4.3",
+          "from": "node-uuid@>=1.4.1 <1.5.0",
+          "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz"
+        },
+        "shimmer": {
+          "version": "1.0.0",
+          "from": "shimmer@1.0.0",
+          "resolved": "https://registry.npmjs.org/shimmer/-/shimmer-1.0.0.tgz"
+        },
+        "toposort-class": {
+          "version": "0.3.1",
+          "from": "toposort-class@>=0.3.0 <0.4.0",
+          "resolved": "https://registry.npmjs.org/toposort-class/-/toposort-class-0.3.1.tgz"
+        },
+        "validator": {
+          "version": "3.40.0",
+          "from": "validator@>=3.34.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/validator/-/validator-3.40.0.tgz"
         }
       }
     },
