@@ -1,0 +1,19 @@
+{
+  "name": "node-mysql-oauth",
+  "version": "1.0.0",
+  "description": "Sample app for node with mysql, passport integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shyamvala/node-mysql-oauth.git"
+  },
+  "author": "Shyam Vala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shyamvala/node-mysql-oauth/issues"
+  },
+  "homepage": "https://github.com/shyamvala/node-mysql-oauth#readme"
+}
